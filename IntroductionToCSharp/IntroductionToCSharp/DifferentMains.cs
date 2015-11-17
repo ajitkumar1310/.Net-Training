@@ -23,16 +23,16 @@ namespace IntroductionToCSharp
         //    Console.WriteLine(a + b);
         //    return 1;
         //}
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            Console.WriteLine("Hellow!!! Welcome To CSharp World!!!");
-            Console.WriteLine(args[0] + args[1]);
-            int a = int.Parse(args[0]);
-            int b = int.Parse(args[1]);
-            Console.WriteLine(a+b);
+        //    Console.WriteLine("Hellow!!! Welcome To CSharp World!!!");
+        //    Console.WriteLine(args[0] + args[1]);
+        //    int a = int.Parse(args[0]);
+        //    int b = int.Parse(args[1]);
+        //    Console.WriteLine(a+b);
 
-        }
+        //}
 
         //static int Main(string[] args)
         //{
