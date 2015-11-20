@@ -34,7 +34,7 @@ namespace IntroductionToCSharp
             //Console.WriteLine("Size of decimal " + sizeof(decimal) + "bytes");   
 
             int i = 65556;
-            short s = i;
+            short s = (short)i;
             Console.WriteLine(s);
             
 
