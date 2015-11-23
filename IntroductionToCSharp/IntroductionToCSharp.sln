@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops-Conditions-Session3",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-TypesOfArguements", "Functions-TypesOfArguements\Functions-TypesOfArguements.csproj", "{0A783212-3F2C-4760-9686-31DC12A47488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{8232411C-CB82-409B-8D90-6D78761432AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0A783212-3F2C-4760-9686-31DC12A47488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A783212-3F2C-4760-9686-31DC12A47488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A783212-3F2C-4760-9686-31DC12A47488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8232411C-CB82-409B-8D90-6D78761432AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8232411C-CB82-409B-8D90-6D78761432AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8232411C-CB82-409B-8D90-6D78761432AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8232411C-CB82-409B-8D90-6D78761432AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

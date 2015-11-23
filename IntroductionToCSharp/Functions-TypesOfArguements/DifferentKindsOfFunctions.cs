@@ -21,7 +21,8 @@ namespace Functions_TypesOfArguements
             Console.WriteLine("Functions and Arguements");
 
             ////PrintName();
-            //PrintGenName("Abhinav",20);            
+            //PrintGenName("Abhinav",20);    
+        
             //VoidMethodWithParams(10, "Ajit");
             //int result = Add(10, 20);
             //VoidMethod();
