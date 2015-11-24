@@ -8,7 +8,7 @@ namespace Encapsulation
 {
     public class Car
     {
-        //data
+        //data or state
         public string brandname;
         public int speed;
         //behavior
@@ -26,6 +26,7 @@ namespace Encapsulation
         //data
         private string brandname;
         private int speed;
+        public string color;
         //properties
         public string _BrandName
         {
@@ -54,6 +55,29 @@ namespace Encapsulation
                     speed = value;
             }
         }
+       // constructer
+        public ModifiedCar()
+        {
+            brandname = "Maruthi";
+            speed = 50;
+        }
+
+        public ModifiedCar(string carname):this()
+        {
+            brandname = carname;
+        }
+
+        public ModifiedCar(string carname, int carspeed):this(carname)
+        {
+           
+            speed = carspeed;
+        }
+        public ModifiedCar(string carname, int carspeed,string carcolor):this(carname,carspeed)
+        {
+           
+            color = carcolor;
+        }
+        
         //behavior
         public void DisplaySpeed()
         {
