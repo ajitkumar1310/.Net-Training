@@ -24,6 +24,7 @@ namespace Encapsulation
     public class   ModifiedCar
     {
         //data
+       public  static int statvar;
         private string brandname;
         private int speed;
         public string color;
@@ -62,19 +63,20 @@ namespace Encapsulation
             speed = 50;
         }
 
-        public ModifiedCar(string carname):this()
+        public ModifiedCar(string carname)
         {
             brandname = carname;
         }
 
         public ModifiedCar(string carname, int carspeed):this(carname)
         {
-           
+            //brandname = carname;
             speed = carspeed;
         }
-        public ModifiedCar(string carname, int carspeed,string carcolor):this(carname,carspeed)
+        public ModifiedCar(string carname, int carspeed, string carcolor): this(carname,carspeed)
         {
-           
+            //brandname = carname;
+            //speed = carspeed;
             color = carcolor;
         }
         
@@ -86,6 +88,7 @@ namespace Encapsulation
         public void Accelerate()
         {
             speed = speed + 10;
+            statvar = 10;
         }
     }
 }
