@@ -31,6 +31,8 @@ namespace Encapsulation
             c.DisplaySpeed();
 
             ModifiedCar mc = new ModifiedCar();
+            ModifiedCar mc2 = new ModifiedCar("Honda", 60);
+            mc.DisplaySpeed();
             mc._Speed = 500;
             mc._Speed = 150;
             mc._BrandName = "AUDI";

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToCSharp", "IntroductionToCSharp\IntroductionToCSharp.csproj", "{1E075085-5738-4ED2-AF19-022608034D79}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-TypesOfArguements", "Functions-TypesOfArguements\Functions-TypesOfArguements.csproj", "{0A783212-3F2C-4760-9686-31DC12A47488}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{8232411C-CB82-409B-8D90-6D78761432AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{D5B6C501-E035-4DE4-B5A8-6A7797C67E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8232411C-CB82-409B-8D90-6D78761432AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8232411C-CB82-409B-8D90-6D78761432AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8232411C-CB82-409B-8D90-6D78761432AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B6C501-E035-4DE4-B5A8-6A7797C67E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B6C501-E035-4DE4-B5A8-6A7797C67E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B6C501-E035-4DE4-B5A8-6A7797C67E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B6C501-E035-4DE4-B5A8-6A7797C67E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

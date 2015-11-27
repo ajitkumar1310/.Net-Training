@@ -54,6 +54,21 @@ namespace Encapsulation
                     speed = value;
             }
         }
+        //constructors
+        public ModifiedCar()
+        {
+            brandname = "Maruthi";
+            speed = 50;
+        }
+        public ModifiedCar(int spd)
+        {
+            speed = spd;
+        }
+        public ModifiedCar(string brname,int spd):this(spd)
+        {
+            speed = spd;
+            brandname = brname;
+        }
         //behavior
         public void DisplaySpeed()
         {
