@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticType-Bank", "StaticType-Bank\StaticType-Bank.csproj", "{184594A0-0252-4988-94D1-4B958E26B6B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{87FF2CA5-FF2A-4307-8042-C5A67FCC9F2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{184594A0-0252-4988-94D1-4B958E26B6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{184594A0-0252-4988-94D1-4B958E26B6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{184594A0-0252-4988-94D1-4B958E26B6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FF2CA5-FF2A-4307-8042-C5A67FCC9F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FF2CA5-FF2A-4307-8042-C5A67FCC9F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FF2CA5-FF2A-4307-8042-C5A67FCC9F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FF2CA5-FF2A-4307-8042-C5A67FCC9F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
