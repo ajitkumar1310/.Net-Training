@@ -10,10 +10,22 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Rectange r = new Rectange();
-            r.length = 10;
-            r.width = 20;
-            r.CalRectArea();
+        //    Shape S = new Shape();
+            
+        //    Rectangle R = new Rectangle();
+        //    Triangle T = new Triangle();
+            
+        //    R.CalArea();
+
+            Manager m = new Manager();
+            //Manager m2 = new Manager("Ajit", 25, 001, 10000F);
+            //m2.DisplayStats();
+            string str1 = "Ajit";
+            string str2 = "Abhinav";
+            Console.WriteLine("Name: {1}", str1, str2);
+
+
+         
         }
     }
 }
