@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscTypes", "MiscTypes\Misc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{0BA1E3BE-55DA-45B8-BBF9-9CC7CE8A45E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractTypes", "AbstractTypes\AbstractTypes.csproj", "{817B5287-8421-46F7-9935-B9DE871D6BD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0BA1E3BE-55DA-45B8-BBF9-9CC7CE8A45E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA1E3BE-55DA-45B8-BBF9-9CC7CE8A45E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA1E3BE-55DA-45B8-BBF9-9CC7CE8A45E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817B5287-8421-46F7-9935-B9DE871D6BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817B5287-8421-46F7-9935-B9DE871D6BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817B5287-8421-46F7-9935-B9DE871D6BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817B5287-8421-46F7-9935-B9DE871D6BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

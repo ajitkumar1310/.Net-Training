@@ -12,7 +12,7 @@ namespace Polymorphism
         {
             Console.WriteLine("Am in parent method");
         }
-        public  void CommonMethod()
+        public virtual void CommonMethod()
         {
             Console.WriteLine("Am in parent common method");
         }
@@ -23,7 +23,7 @@ namespace Polymorphism
         {
             Console.WriteLine("Am in child method");
         }
-        public new void CommonMethod()
+        public override void CommonMethod()
         {
             Console.WriteLine("Am in child common method");
         }
