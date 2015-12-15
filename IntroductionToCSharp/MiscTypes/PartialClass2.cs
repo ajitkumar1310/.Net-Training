@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiscTypes
 {
-    partial class PartialClass
+    partial class Abhinavclass
     {
         private int var1;
         private int var2;

@@ -15,9 +15,11 @@ namespace MiscTypes
             //MiscTyp.consvar = 200;
             //readvar cannot be assigned and readvar is not implicitly static
             //m.readvar = 200;
-            PartialClass p = new PartialClass();
-            
-        }
+            Abhinavclass ab = new Abhinavclass();
+           
+
+
+    }
     }
     class MiscTyp
     {

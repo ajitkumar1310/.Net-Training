@@ -12,6 +12,10 @@
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:EmpDBConnectionString %>" SelectCommand="SELECT * FROM [Table]"></asp:SqlDataSource>
     
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+        <asp:DropDownList ID="DropDownList1" runat="server">
+        </asp:DropDownList>
+    
     </div>
     </form>
 </body>
