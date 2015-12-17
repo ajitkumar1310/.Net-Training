@@ -38,7 +38,8 @@ namespace ConsoleConnected
             //    con.Dispose();
             //}
             //use try finally or use below code
-            string constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\j1011718.JDA\Documents\EmpDB.mdf;Integrated Security=True;Connect Timeout=30";
+            string constr = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = ""C:\Users\Johannes Chauke\Documents\EmpNewDB.mdf ""; ; Integrated Security = True; Connect Timeout = 30";
+            
             using (SqlConnection con =new  SqlConnection(constr))
             {
                 SqlCommand cmd = new SqlCommand();
@@ -110,32 +111,32 @@ namespace ConsoleConnected
             }
 
 
-            Console.WriteLine("---------------Inserting into the Table------------");
+            //Console.WriteLine("---------------Inserting into the Table------------");
 
-            using (SqlConnection con = new SqlConnection(constr))
-            {
+            //using (SqlConnection con = new SqlConnection(constr))
+            //{
 
-                //updated the table by opening and closing connection
-                SqlCommand cmd = new SqlCommand();
-                cmd.CommandText = "Insert into EmpTable Values(4,'kkkkk','vizag') ";
-                cmd.Connection = con;
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
+            //    //updated the table by opening and closing connection
+            //    SqlCommand cmd = new SqlCommand();
+            //    cmd.CommandText = "Insert into EmpTable Values(5,'AAAAAA','vizag') ";
+            //    cmd.Connection = con;
+            //    con.Open();
+            //    cmd.ExecuteNonQuery();
+            //    con.Close();
 
-                //read the table by opening and closing connection
+            //    //read the table by opening and closing connection
 
-                cmd.CommandText = "Select * from EmpTable";
-                con.Open();
+            //    cmd.CommandText = "Select * from EmpTable";
+            //    con.Open();
 
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    Console.WriteLine(dr[0] + "   " + dr["EmpName"] + "     " + dr[2]);
-                }
-                con.Close();
+            //    SqlDataReader dr = cmd.ExecuteReader();
+            //    while (dr.Read())
+            //    {
+            //        Console.WriteLine(dr[0] + "   " + dr["EmpName"] + "     " + dr[2]);
+            //    }
+            //    con.Close();
 
-            }
+            //}
 
 
 
