@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToCSharp", "IntroductionToCSharp\IntroductionToCSharp.csproj", "{1E075085-5738-4ED2-AF19-022608034D79}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session1", "Session1\Session1.csproj", "{D773B417-3580-45D1-8109-50ACE9ADEC94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsConnectted", "WindowsFormsConnectted\WindowsFormsConnectted.csproj", "{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsDisconnected", "WindowsDisconnected\WindowsDisconnected.csproj", "{52C762FD-BD71-49C3-BF3C-339A6B688FF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +141,10 @@ Global
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C762FD-BD71-49C3-BF3C-339A6B688FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C762FD-BD71-49C3-BF3C-339A6B688FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C762FD-BD71-49C3-BF3C-339A6B688FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C762FD-BD71-49C3-BF3C-339A6B688FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,5 +172,6 @@ Global
 		{69E9A6A5-4EF2-47F3-AC72-A6CFDADBB204} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
 		{D773B417-3580-45D1-8109-50ACE9ADEC94} = {B0DD4CFD-E513-47F8-8F1E-D9B720F5DB9D}
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
+		{52C762FD-BD71-49C3-BF3C-339A6B688FF1} = {57732A6F-4296-4A43-8B76-CB526B7A5008}
 	EndGlobalSection
 EndGlobal
