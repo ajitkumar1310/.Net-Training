@@ -68,7 +68,6 @@
             this.btnInsertEmployee.TabIndex = 2;
             this.btnInsertEmployee.Text = "Insert Employees";
             this.btnInsertEmployee.UseVisualStyleBackColor = true;
-            this.btnInsertEmployee.Click += new System.EventHandler(this.btnInsertEmployee_Click);
             // 
             // label1
             // 
@@ -126,7 +125,6 @@
             this.btnDeleteEmployees.TabIndex = 9;
             this.btnDeleteEmployees.Text = "Delete Employees";
             this.btnDeleteEmployees.UseVisualStyleBackColor = true;
-            this.btnDeleteEmployees.Click += new System.EventHandler(this.btnDeleteEmployees_Click);
             // 
             // btnUpdateEmployees
             // 
@@ -136,7 +134,6 @@
             this.btnUpdateEmployees.TabIndex = 10;
             this.btnUpdateEmployees.Text = "Update Employees";
             this.btnUpdateEmployees.UseVisualStyleBackColor = true;
-            this.btnUpdateEmployees.Click += new System.EventHandler(this.btnUpdateEmployees_Click);
             // 
             // Form1
             // 

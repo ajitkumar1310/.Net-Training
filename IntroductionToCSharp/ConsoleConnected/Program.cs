@@ -28,7 +28,7 @@ namespace ConsoleConnected
             //using-try and finally
 
 
-            //SqlConnection con = new SqlConnection(constr);
+            //OracleConnection con = new SqlConnection(constr);
             //try
             //{
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,8 +25,7 @@ using System.Windows.Forms;namespace WindowsFormsConnectted
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandText = "Select * from EmpTable";
                 cmd.Connection = con;
-                con.Open();
-                
+                con.Open();               
                 
                 DataTable dt=new DataTable();
                 dt.Load(cmd.ExecuteReader());
@@ -54,6 +54,7 @@ using System.Windows.Forms;namespace WindowsFormsConnectted
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
+                
 
                 
 
@@ -106,6 +107,11 @@ using System.Windows.Forms;namespace WindowsFormsConnectted
 
 
             }
+        }
+
+        private void btnGetEmployees_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
