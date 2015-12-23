@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsConnectted", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormStoredProc", "WindowsFormStoredProc\WindowsFormStoredProc.csproj", "{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDisconnected-Queries", "WinFormDisconnected-Queries\WinFormDisconnected-Queries.csproj", "{5B89A38D-CC37-4468-8601-03868AEBB8F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B89A38D-CC37-4468-8601-03868AEBB8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B89A38D-CC37-4468-8601-03868AEBB8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B89A38D-CC37-4468-8601-03868AEBB8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B89A38D-CC37-4468-8601-03868AEBB8F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,5 +179,6 @@ Global
 		{D773B417-3580-45D1-8109-50ACE9ADEC94} = {B0DD4CFD-E513-47F8-8F1E-D9B720F5DB9D}
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
+		{5B89A38D-CC37-4468-8601-03868AEBB8F6} = {57732A6F-4296-4A43-8B76-CB526B7A5008}
 	EndGlobalSection
 EndGlobal

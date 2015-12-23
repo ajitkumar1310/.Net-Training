@@ -113,5 +113,10 @@ using System.Windows.Forms;namespace WindowsFormsConnectted
         {
 
         }
+
+        private void btnUpdateEmployees_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
