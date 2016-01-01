@@ -137,6 +137,7 @@
             this.btnUpdateEmployees.TabIndex = 10;
             this.btnUpdateEmployees.Text = "Update Employees";
             this.btnUpdateEmployees.UseVisualStyleBackColor = true;
+            this.btnUpdateEmployees.Click += new System.EventHandler(this.btnUpdateEmployees_Click);
             // 
             // btnGetAverage
             // 
