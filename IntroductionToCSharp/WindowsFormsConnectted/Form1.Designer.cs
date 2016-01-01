@@ -39,6 +39,8 @@
             this.txtEmpCity = new System.Windows.Forms.TextBox();
             this.btnDeleteEmployees = new System.Windows.Forms.Button();
             this.btnUpdateEmployees = new System.Windows.Forms.Button();
+            this.btnGetAverage = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,6 +70,7 @@
             this.btnInsertEmployee.TabIndex = 2;
             this.btnInsertEmployee.Text = "Insert Employees";
             this.btnInsertEmployee.UseVisualStyleBackColor = true;
+            this.btnInsertEmployee.Click += new System.EventHandler(this.btnInsertEmployee_Click);
             // 
             // label1
             // 
@@ -135,12 +138,31 @@
             this.btnUpdateEmployees.Text = "Update Employees";
             this.btnUpdateEmployees.UseVisualStyleBackColor = true;
             // 
+            // btnGetAverage
+            // 
+            this.btnGetAverage.Location = new System.Drawing.Point(228, 271);
+            this.btnGetAverage.Name = "btnGetAverage";
+            this.btnGetAverage.Size = new System.Drawing.Size(160, 23);
+            this.btnGetAverage.TabIndex = 11;
+            this.btnGetAverage.Text = "Get Average";
+            this.btnGetAverage.UseVisualStyleBackColor = true;
+            this.btnGetAverage.Click += new System.EventHandler(this.btnGetAverage_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(463, 271);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.OutlineButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 356);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnGetAverage);
             this.Controls.Add(this.btnUpdateEmployees);
             this.Controls.Add(this.btnDeleteEmployees);
             this.Controls.Add(this.txtEmpCity);
@@ -173,5 +195,7 @@
         private System.Windows.Forms.TextBox txtEmpCity;
         private System.Windows.Forms.Button btnDeleteEmployees;
         private System.Windows.Forms.Button btnUpdateEmployees;
+        private System.Windows.Forms.Button btnGetAverage;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

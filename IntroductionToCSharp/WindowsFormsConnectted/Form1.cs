@@ -113,5 +113,56 @@ using System.Windows.Forms;namespace WindowsFormsConnectted
         {
 
         }
+
+        private void btnInsertEmployee_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGetAverage_Click(object sender, EventArgs e)
+        {
+
+            string constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ajitk\OneDrive\Documents\EmpDB.mdf;Integrated Security=True;Connect Timeout=30";
+            using (SqlConnection con = new SqlConnection(constr))
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "AverageProcedure";
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter param1 = new SqlParameter("@average",0);
+                param1.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(param1);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                textBox1.Text = param1.Value.ToString();
+
+
+
+
+            }
+
+
+
+                //string constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ajitk\OneDrive\Documents\EmpDB.mdf;Integrated Security=True;Connect Timeout=30";
+                //using (SqlConnection con = new SqlConnection(constr))
+                //{
+                //    SqlCommand cmd = new SqlCommand();
+                //    cmd.CommandText = "AverageProcedure";
+                //    cmd.Connection = con;
+                //    cmd.CommandType = CommandType.StoredProcedure;
+                //    SqlParameter param1 = new SqlParameter();
+                //    param1.ParameterName = "@average";
+                //    param1.Value = 0;
+                //    param1.Direction = ParameterDirection.Output;
+                //    cmd.Parameters.Add(param1);
+                //    con.Open();
+                //    cmd.ExecuteNonQuery();
+                //    con.Close();
+                //    textBox1.Text = param1.Value.ToString();
+                //}
+
+
+            }
     }
 }

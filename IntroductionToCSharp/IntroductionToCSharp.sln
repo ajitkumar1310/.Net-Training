@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToCSharp", "IntroductionToCSharp\IntroductionToCSharp.csproj", "{1E075085-5738-4ED2-AF19-022608034D79}"
 EndProject
@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADDCSharp", "ADDCSharp\ADDC
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADDVb1", "ADDVb1\ADDVb1.vbproj", "{A38A2FDF-7871-48BE-8893-6BFBB0EC1B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops-Conditions-Session3", "Session3\Loops-Conditions-Session3.csproj", "{8F20CB84-2761-40AA-A979-42E58FDEF3A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops-Conditions", "Session3\Loops-Conditions.csproj", "{8F20CB84-2761-40AA-A979-42E58FDEF3A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-TypesOfArguements", "Functions-TypesOfArguements\Functions-TypesOfArguements.csproj", "{0A783212-3F2C-4760-9686-31DC12A47488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{8232411C-CB82-409B-8D90-6D78761432AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation-Constructers", "Encapsulation\Encapsulation-Constructers.csproj", "{8232411C-CB82-409B-8D90-6D78761432AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticType-Bank", "StaticType-Bank\StaticType-Bank.csproj", "{184594A0-0252-4988-94D1-4B958E26B6B6}"
 EndProject
@@ -54,6 +54,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsConnectted", "WindowsFormsConnectted\WindowsFormsConnectted.csproj", "{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormStoredProc", "WindowsFormStoredProc\WindowsFormStoredProc.csproj", "{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsDisconnected", "WindowsFormsDisconnected\WindowsFormsDisconnected.csproj", "{E03C6A66-5FBE-40B9-8339-1717B8F63FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewState-SessionState-ApplicationState", "ViewState-SessionState-ApplicationState\ViewState-SessionState-ApplicationState.csproj", "{1E5908A5-3524-42B5-A417-93E3AC80A8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiment", "Experiment\Experiment.csproj", "{407301BE-256A-4647-BF50-4BEEE2D43813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +151,18 @@ Global
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03C6A66-5FBE-40B9-8339-1717B8F63FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03C6A66-5FBE-40B9-8339-1717B8F63FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03C6A66-5FBE-40B9-8339-1717B8F63FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03C6A66-5FBE-40B9-8339-1717B8F63FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5908A5-3524-42B5-A417-93E3AC80A8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5908A5-3524-42B5-A417-93E3AC80A8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5908A5-3524-42B5-A417-93E3AC80A8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5908A5-3524-42B5-A417-93E3AC80A8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407301BE-256A-4647-BF50-4BEEE2D43813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407301BE-256A-4647-BF50-4BEEE2D43813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407301BE-256A-4647-BF50-4BEEE2D43813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407301BE-256A-4647-BF50-4BEEE2D43813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,5 +191,8 @@ Global
 		{D773B417-3580-45D1-8109-50ACE9ADEC94} = {B0DD4CFD-E513-47F8-8F1E-D9B720F5DB9D}
 		{5CC9A7F9-4F50-4FAE-8B99-B8F9F0894CA4} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
 		{3F850DDB-4EBE-4F6D-AF09-EF4BF56BB8E4} = {D8856474-FFD2-4246-8ADF-D7BAA3657C37}
+		{E03C6A66-5FBE-40B9-8339-1717B8F63FAD} = {57732A6F-4296-4A43-8B76-CB526B7A5008}
+		{1E5908A5-3524-42B5-A417-93E3AC80A8C2} = {B0DD4CFD-E513-47F8-8F1E-D9B720F5DB9D}
+		{407301BE-256A-4647-BF50-4BEEE2D43813} = {B0DD4CFD-E513-47F8-8F1E-D9B720F5DB9D}
 	EndGlobalSection
 EndGlobal
